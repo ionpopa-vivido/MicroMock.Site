@@ -2695,7 +2695,7 @@ button {
 
 /*-- House --*/
 .two-house-area {
-    background-image: url('assets/img/home-two/house-bg.jpg');
+    background-image: url('assets/img/home-two/architecture.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2713,6 +2713,7 @@ button {
     }
     .house-item {
         margin-bottom: 30px;
+        margin-right: 60px;
         text-align: center;
         position: relative;
         transition: $transition;
