@@ -9,6 +9,10 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .ptb-25 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
     .pt-100 {
         padding-top: 50px;
     }
@@ -2261,6 +2265,25 @@
         display: none;
     }
 
+        /*-- Expect --*/
+        .four-expect-area {
+            .expect-item {
+                padding: 35px 15px 35px 75px;
+
+                .expect-icon {
+                    i {
+                        top: 40px;
+                        left: 7px;
+
+                    }
+                }
+                a {
+                    font-size: $all-size;
+                }
+            }
+        }
+        /*-- End Expect --*/
+
 }
 
 @media only screen and (min-width : 768px) and (max-width : 991px) {
@@ -2273,6 +2296,10 @@
     .ptb-100 {
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+    .ptb-25 {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .pt-100 {
         padding-top: 70px;
@@ -4300,6 +4327,26 @@
     .information-shape-1, .information-shape-2 {
         display: none;
     }
+
+        /*-- Expect --*/
+        .four-expect-area {
+            .expect-item {
+                padding: 35px 15px 35px 75px;
+
+                .expect-icon {
+                    i {
+                        top: 40px;
+                        left: 7px;
+
+                    }
+                }
+                a {
+                    font-size: $all-size;
+                }
+            }
+        }
+        /*-- End Expect --*/
+
 
 }
 

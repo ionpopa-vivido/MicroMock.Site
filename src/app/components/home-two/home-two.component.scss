@@ -13,3 +13,33 @@ span{
 .nav-tabs{
     justify-content: center;
 }
+
+.box {
+    padding: 5px;
+}
+.box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.box h3 i {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #bedaef;
+}
+.box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.box ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #bedaef;
+}
+.box ul li i {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #bedaef;
+}
