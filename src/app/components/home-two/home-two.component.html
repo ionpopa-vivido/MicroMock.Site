@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-    <a class="navbar-brand" routerLink="/home-two"><img src="assets/img/logo.webp" alt="Logo"></a>
+    <a class="navbar-brand" routerLink="/"><img src="assets/img/logo.webp" alt="Logo"></a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,6 +10,7 @@
         <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#about">Informazioni</a></li>
             <li class="nav-item"><a class="nav-link" href="#usecases">Casi d'uso</a></li>
+            <li class="nav-item"><a class="nav-link" href="#usecasecomparison">Benefits</a></li>
             <li class="nav-item"><a class="nav-link" href="#heroAIAssistant">Assistente AI</a></li>
             <li class="nav-item"><a class="nav-link" href="#beneficiMicromock">Benefici MicroMock</a></li>
             <li class="nav-item"><a class="nav-link" href="#architecture">Architettura</a></li>
@@ -105,7 +106,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="advisor-img">
-                                <img src="assets/img/home-one/advisor.jpg" alt="Advisor">
+                                <img src="assets/img/home-two/order-flow.png" alt="Advisor">
                             </div>
                         </div>
 
@@ -127,7 +128,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="advisor-img">
-                                <img src="assets/img/home-one/advisor2.jpg" alt="Advisor">
+                                <img src="assets/img/home-two/inventory-service.webp" alt="Advisor">
                             </div>
                         </div>
 
@@ -148,7 +149,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="advisor-img">
-                                <img src="assets/img/home-one/advisor3.jpg" alt="Advisor">
+                                <img src="assets/img/home-two/payment-service.webp" alt="Advisor">
                             </div>
                         </div>
 
@@ -165,6 +166,129 @@
         </div>
     </div>
 </section>
+
+<section id="usecasecomparison" class="one-service-area two-service-area ptb-100">
+    <div class="two-address-area ghostwhitebg pt-100">
+        <div class="container">
+            <div class="one-section-title">
+                <span class="sub-title">Ottimizza i tuoi processi</span>
+                <h2>Caso d’uso: Generazione di un ordine</h2>
+            </div>
+    
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="address-item">
+                        <img src="assets/img/home-two/usecase1ghostwhite.png" height=460 alt="Address">
+                        <h3>Test classici</h3>
+                    </div>
+                    <div class="container advisor-content">
+                        <ul class="nobullets">
+                            <li><i class='bx bxs-chevrons-right'></i> Salvataggio manuale dei file JSON per le varie prove da eseguire.</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Invio manuale dei singoli messaggi.</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Difficoltà nella condivisione dei file.</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Necessità di sviluppo di codice da parte del team per eseguire le prove di invio e risposta.</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Difficoltà per un team di QA non tecnico di replicare le prove sul singolo microservizio.</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Possibili problemi di accesso agli ambienti di deploy.</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Modifiche manuali necessarie per fornire risposte con dati coerenti (es. codice ordine).</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="col-lg-6">
+                    <div class="address-item">
+                        <img src="assets/img/home-two/usecase2ghostwhite.png" height=460 alt="Address">
+                        <h3>Test con MicroMock</h3>
+                    </div>
+                    <div class="container advisor-content">
+                        <ul class="nobullets">
+                            <li><i class='bx bxs-chevrons-right'></i> Risposte generate automaticamente con dati coerenti a quelli inviati (es. codice ordine).</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Possibilità di generare dati fake (es. nomi, indirizzi, email).</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Configurabile tramite interfaccia grafica, senza necessità di conoscenze di programmazione.</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Casi di test organizzati e configurabili.</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Condivisione di un singolo file con l’intera struttura mock.</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Utilizzabile sia in locale che su un server di sviluppo o QA.</li>
+                            <li><i class='bx bxs-chevrons-right'></i> Esecuzione di tutti i test con un solo click.</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<section class="one-help-area two-help-area emerald-background">
+    <div class="container-fluid p-0">
+        <div class="row m-0">
+            <div class="col-lg-10 p-0">
+                <div class="help-item help-item-bigger">
+                    <div class="one-section-title">
+                        <span class="sub-title">Personalizzazione totale</span>
+                        <h2>Configurazione di MicroMock</h2>
+                        <p class="nomargin">L'utente ha completa autonomia nella gestione dei mock necessari per eseguire i test, compresa la possibilità di avviare o arrestare specifici microservizi mock, ad esempio per passare da un mock a un microservizio reale.
+                        </p>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <div class="help-icon">
+                                <i class='bx bx-network-chart'></i> <!-- Updated icon for Workspaces -->
+                            </div>
+                            <div class="help-inner">
+                                <h3>Workspaces</h3>
+                                <p class="p-80">Crea un’area di lavoro che contiene uno o più microservizi mock. Questa funzionalità può essere utilizzata per separare completamente i microservizi che appartengono a progetti diversi.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="help-icon">
+                                <i class='bx bx-layer'></i> <!-- Updated icon for Applications -->
+                            </div>
+                            <div class="help-inner">
+                                <h3>Applications</h3>
+                                <p class="p-80">All'interno di un workspace, è possibile aggiungere una nuova applicazione e definire i dettagli del microservizio mock. Ad esempio, nel caso precedentemente illustrato, potrebbero essere create due applicazioni: <span>InventoryMock</span> e <span>PaymentMock</span>.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="help-icon">
+                                <i class='bx bx-transfer-alt'></i> <!-- Updated icon for Transports -->
+                            </div>
+                            <div class="help-inner">
+                                <h3>Transports</h3>
+                                <p class="p-80">Ogni applicazione può avere uno o più transport con le proprie configurazioni e credenziali. Un transport è un collegamento a un determinato message broker. Ad esempio, <span>InventoryMock</span> può essere configurato per connettersi a Kafka su specifici topic, utilizzando ACL e certificati dedicati.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="help-icon">
+                                <i class='bx bx-message-rounded-check'></i> <!-- Updated icon for Responses -->
+                            </div>
+                            <div class="help-inner">
+                                <h3>Responses</h3>
+                                <p class="p-80">Configura le possibili risposte che il microservizio mock deve generare. È possibile definire regole di generazione basate sul messaggio ricevuto; ad esempio, la risposta può essere determinata da valori presenti negli headers, nei JSON o dal topic di arrivo. Più regole possono essere concatenate e gestite con operatori logici come "AND", "OR", "IF". Le risposte possono includere dati fake generati da MicroMock o recuperare informazioni dal JSON in arrivo, propagandole nella risposta. Sono disponibili anche istruzioni specifiche per gestire array di elementi.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="help-icon">
+                                <i class='bx bx-play-circle'></i> <!-- Updated icon for Producers -->
+                            </div>
+                            <div class="help-inner">
+                                <h3>Producers</h3>
+                                <p class="p-80">Alcuni messaggi di avvio del flusso potrebbero provenire da altri microservizi. Questa sezione consente di configurare questi messaggi di avvio, permettendo una gestione autonoma anche di questo tipo di scenario.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="col-lg-2 p-0">
+                <div class="help-img-two bit-tornado-bg">
+                    <img src="assets/img/home-two/fun.jpg" alt="Fun">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section id="heroAIAssistant" class="one-help-area ptb-25">
     <div class="help-img">

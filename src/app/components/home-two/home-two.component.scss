@@ -43,3 +43,38 @@ span{
     font-size: 24px;
     color: #bedaef;
 }
+
+.ghostwhitebg{
+    background-color: ghostwhite!important;
+}
+
+
+.nobullets{
+    list-style-type: none;
+}
+
+.custom-card {
+    background-color: ghostwhite;
+    box-shadow: -4px -4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.help-item-bigger{
+    max-width: 90%!important;
+    p.nomargin{
+        margin-left:inherit!important;
+        color: white;
+    }
+    p.p-80{
+        max-width: 80%!important;
+    }
+}
+
+.emerald-background{
+    background-color: #2e4565;
+}
+
+.bit-tornado-bg{
+    background-image: url("../../../assets/img/home-two/bit-tornado.webp");
+}

@@ -13,3 +13,74 @@ span {
 .nav-tabs {
   justify-content: center;
 }
+
+.box {
+  padding: 5px;
+}
+
+.box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.box h3 i {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #bedaef;
+}
+
+.box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.box ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #bedaef;
+}
+
+.box ul li i {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #bedaef;
+}
+
+.ghostwhitebg {
+  background-color: ghostwhite !important;
+}
+
+.nobullets {
+  list-style-type: none;
+}
+
+.custom-card {
+  background-color: ghostwhite;
+  box-shadow: -4px -4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.help-item-bigger {
+  max-width: 90% !important;
+}
+
+.help-item-bigger p.nomargin {
+  margin-left: inherit !important;
+  color: white;
+}
+
+.help-item-bigger p.p-80 {
+  max-width: 80% !important;
+}
+
+.emerald-background {
+  background-color: #2e4565;
+}
+
+.bit-tornado-bg {
+  background-image: url("../../../assets/img/home-two/bit-tornado.webp");
+}
