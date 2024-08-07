@@ -1,9 +1,11 @@
 .mock1bg{
-    background-image: url('../../../assets/img/home-two/mockbgs1.webp')!important;
+    background-image: url('../../../assets/img/home-two/mockbgs2.webp')!important;
 }
 
 .mock2bg{
     background-image: url('../../../assets/img/home-two/mockbgs2.png')!important;
+    background-color: #efefef;
+    background-size: contain;
 }
 
 span{
@@ -51,6 +53,10 @@ span{
 
 .nobullets{
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height:33px;
 }
 
 .custom-card {
@@ -77,4 +83,27 @@ span{
 
 .bit-tornado-bg{
     background-image: url("../../../assets/img/home-two/bit-tornado.webp");
+}
+
+.custom-card {
+    background-color: #f7f6ff;
+    padding: 20px;
+    margin: 1px!important;
+    border-radius: 8px;
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-shadow{
+    border-radius: 15px!important;
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.3)!important;
+    min-height: 90px!important;
+    margin-bottom: 25px!important;
+}
+
+.h170{
+    height: 170px;
+}
+
+.rounded-border{
+    border-radius: 15px!important;
 }
