@@ -35,7 +35,7 @@
     </div>
 </div>
 
-<div id="discoverMicroMock" class="one-contact-area two-address-area mock2bg ptb-100">
+<div id="discoverMicroMock" class="one-contact-area two-address-area mock2bg">
     <div class="container">
         <div class="contact-content" style="max-width: 580px !important">
             <div class="one-section-title">
@@ -99,15 +99,15 @@
 
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                <div class="service-advisor">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
+                <div class="service-advisor card-shadow">
+                    <div class="row align-items-center d-flex justify-content-center">
+                        <div class="col-lg-3">
                             <div class="advisor-img">
-                                <img src="assets/img/home-two/order-flow.png" alt="Advisor">
+                                <img class="rounded-border half-width" src="assets/img/home-two/order-flow.png" alt="Advisor">
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-3">
                             <div class="advisor-content">
                                 <h2>OrderService</h2>
                                 <p>Gestisce il flusso dell’ordine. Comunica con <span>InventoryService</span> e
@@ -121,15 +121,15 @@
             </div>
 
             <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                <div class="service-advisor">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
+                <div class="service-advisor card-shadow">
+                    <div class="row align-items-center d-flex justify-content-center">
+                        <div class="col-lg-3">
                             <div class="advisor-img">
-                                <img src="assets/img/home-two/inventory-service.webp" alt="Advisor">
+                                <img class="rounded-border half-width" src="assets/img/home-two/inventory-service.webp" alt="Advisor">
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-3">
                             <div class="advisor-content">
                                 <h2>InventoryService</h2>
                                 <p>Riceve i messaggi da <span>OrderService</span> e risponde con una conferma o un
@@ -142,15 +142,15 @@
             </div>
 
             <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                <div class="service-advisor">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
+                <div class="service-advisor card-shadow">
+                    <div class="row align-items-center d-flex justify-content-center">
+                        <div class="col-lg-3">
                             <div class="advisor-img">
-                                <img src="assets/img/home-two/payment-service.webp" alt="Advisor">
+                                <img class="rounded-border half-width" src="assets/img/home-two/payment-service.webp" alt="Advisor">
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-3">
                             <div class="advisor-content">
                                 <h2>PaymentService</h2>
                                 <p>Riceve i messaggi da <span>OrderService</span> e simula il processo di pagamento.
@@ -164,48 +164,51 @@
     </div>
 </section>
 
-<section id="usecasecomparison" class="one-service-area two-service-area ptb-100">
+<section id="usecasecomparison" class="one-service-area two-service-area">
     <div class="two-address-area ghostwhitebg pt-100">
         <div class="container">
             <div class="one-section-title">
                 <span class="sub-title">Ottimizza i tuoi processi</span>
                 <h2>Caso d’uso: Generazione di un ordine</h2>
             </div>
-
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="address-item">
-                        <img src="assets/img/home-two/usecase1ghostwhite.png" height=460 alt="Address">
-                        <h3>Test classici</h3>
-                    </div>
-                    <div class="container advisor-content">
-                        <ul class="nobullets">
-                            <li><i class='bx bxs-chevrons-right'></i> Salvataggio manuale dei file JSON per le varie prove da eseguire.</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Invio manuale dei singoli messaggi.</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Difficoltà nella condivisione dei file.</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Necessità di sviluppo di codice da parte del team per eseguire le prove di invio e risposta.</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Difficoltà per un team di QA non tecnico di replicare le prove sul singolo microservizio.</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Possibili problemi di accesso agli ambienti di deploy.</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Modifiche manuali necessarie per fornire risposte con dati coerenti (es. codice ordine).</li>
-                        </ul>
+                <div class="col-lg-6 d-flex">
+                    <div class="custom-card">
+                        <div class="address-item">
+                            <h3>Test classici</h3>
+                            <img src="assets/img/home-two/usecase1ghostwhite.png" height="460" alt="Address">
+                        </div>
+                        <div class="container advisor-content">
+                            <ul class="nobullets">
+                                <li><i class='bx bxs-chevrons-right'></i> Salvataggio manuale dei file JSON per le varie prove da eseguire.</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Invio manuale dei singoli messaggi.</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Difficoltà nella condivisione dei file.</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Necessità di sviluppo di codice da parte del team per eseguire le prove di invio e risposta.</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Difficoltà per un team di QA non tecnico di replicare le prove sul singolo microservizio.</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Possibili problemi di accesso agli ambienti di deploy.</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Modifiche manuali necessarie per fornire risposte con dati coerenti (es. codice ordine).</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-
-                <div class="col-lg-6">
-                    <div class="address-item">
-                        <img src="assets/img/home-two/usecase2ghostwhite.png" height=460 alt="Address">
-                        <h3>Test con MicroMock</h3>
-                    </div>
-                    <div class="container advisor-content">
-                        <ul class="nobullets">
-                            <li><i class='bx bxs-chevrons-right'></i> Risposte generate automaticamente con dati coerenti a quelli inviati (es. codice ordine).</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Possibilità di generare dati fake (es. nomi, indirizzi, email).</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Configurabile tramite interfaccia grafica, senza necessità di conoscenze di programmazione.</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Casi di test organizzati e configurabili.</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Condivisione di un singolo file con l’intera struttura mock.</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Utilizzabile sia in locale che su un server di sviluppo o QA.</li>
-                            <li><i class='bx bxs-chevrons-right'></i> Esecuzione di tutti i test con un solo click.</li>
-                      </ul>
+            
+                <div class="col-lg-6 d-flex">
+                    <div class="custom-card">
+                        <div class="address-item">
+                            <h3>Test con MicroMock</h3>
+                            <img src="assets/img/home-two/usecase2ghostwhite.png" height="460" alt="Address">
+                        </div>
+                        <div class="container advisor-content">
+                            <ul class="nobullets">
+                                <li><i class='bx bxs-chevrons-right'></i> Risposte generate automaticamente con dati coerenti a quelli inviati (es. codice ordine).</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Possibilità di generare dati fake (es. nomi, indirizzi, email).</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Configurabile tramite interfaccia grafica, senza necessità di conoscenze di programmazione.</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Casi di test organizzati e configurabili.</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Condivisione di un singolo file con l’intera struttura mock.</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Utilizzabile sia in locale che su un server di sviluppo o QA.</li>
+                                <li><i class='bx bxs-chevrons-right'></i> Esecuzione di tutti i test con un solo click.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -288,13 +291,15 @@
 
 
 <section id="heroAIAssistant" class="one-help-area ptb-25">
-    <div class="help-img">
-        <img src="assets/img/home-two/heroAIAssistant.webp" alt="AI Hero Assistant">
-    </div>
-
+    <div class="row">
+        
+    <div class="col-4">
+        <img style="border-radius: 50%; max-width: 75%; padding-top: 50%; margin-bottom: 40%; margin-left:12%;" src="assets/img/home-two/heroAIAssistant.webp" alt="AI Hero Assistant">
+</div>
+    <div class="col-8">
     <div class="container">
-        <div class="help-item">
-            <div class="one-section-title">
+        <div class="help-item" style="max-width: 80% !important;">
+            <div class="one-section-title w-100">
                 <span class="sub-title">Il supporto dell'intelligenza articifiale</span>
                 <h2>AI Hero Assistant</h2>
                 Per semplificare e ridurre al minimo il tempo di configurazione, MicroMock dispone di un asssistente
@@ -367,6 +372,8 @@
             </div>
         </div>
     </div>
+</div>
+</div>
 </section>
 
 <div id="beneficiMicromock" class="four-expect-area ptb-25">
@@ -376,8 +383,8 @@
             <h2>Benefici di MicroMock</h2>
         </div>
 
-        <div class="row">
-            <div class="col-sm-6 col-lg-6">
+        <div class="row d-flex">
+            <div class="col-sm-6 col-lg-6 d-flex flex-wrap">
                 <div class="expect-item active">
                     <div class="expect-icon">
                         <i class='bx bx-code-alt'></i>
@@ -399,7 +406,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-lg-6">
+            <div class="col-sm-6 col-lg-6 d-flex flex-wrap">
                 <div class="expect-item">
                     <div class="expect-icon">
                         <i class='bx bx-check-shield'></i>
@@ -422,7 +429,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-lg-6">
+            <div class="col-sm-6 col-lg-6 d-flex flex-wrap">
                 <div class="expect-item">
                     <div class="expect-icon">
                         <i class='bx bx-building'></i>
@@ -443,7 +450,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-lg-6">
+            <div class="col-sm-6 col-lg-6 d-flex flex-wrap">
                 <div class="expect-item">
                     <div class="expect-icon">
                         <i class='bx bx-group'></i>
@@ -559,21 +566,21 @@
 
         <div class="row">
             <div class="col-sm-6 col-lg-4">
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>MicroMock Service</h3>
                     <div class="process-span">
                         <span>1</span>
                     </div>
                     <p>Struttura base</p>
                 </div>
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>MicroMock Service</h3>
                     <div class="process-span">
                         <span>2</span>
                     </div>
                     <p>Producer messaggi</p>
                 </div>
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>MicroMock Service</h3>
                     <div class="process-span">
                         <span>3</span>
@@ -581,14 +588,14 @@
                     <p>Integrazione Handlebars</p>
                 </div>
 
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>MicroMock Service</h3>
                     <div class="process-span">
                         <span>4</span>
                     </div>
                     <p>Integrazione Bogus</p>
                 </div>
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>MicroMock Service</h3>
                     <div class="process-span">
                         <span>5</span>
@@ -596,7 +603,7 @@
                     <p>Memorizzazione messaggi per UI</p>
                 </div>
 
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>MicroMock Service</h3>
                     <div class="process-span">
                         <span>6</span>
@@ -605,21 +612,21 @@
                 </div>
             </div>
             <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>MicroMock UI</h3>
                     <div class="process-span">
                         <span>7</span>
                     </div>
                     <p>Creazione mockup</p>
                 </div>
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>MicroMock UI</h3>
                     <div class="process-span">
                         <span>8</span>
                     </div>
                     <p>Gestione workspaces</p>
                 </div>
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>MicroMock UI</h3>
                     <div class="process-span">
                         <span>9</span>
@@ -627,14 +634,14 @@
                     <p>Gestione applications</p>
                 </div>
 
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>MicroMock UI</h3>
                     <div class="process-span">
                         <span>10</span>
                     </div>
                     <p>Gestione transports</p>
                 </div>
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>MicroMock UI</h3>
                     <div class="process-span">
                         <span>11</span>
@@ -643,14 +650,14 @@
                 </div>
             </div>
             <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>Generico</h3>
                     <div class="process-span">
                         <span>12</span>
                     </div>
-                    <p>Esempio di deploy per docker</p>
+                    <p>Esempio di deploy docker</p>
                 </div>
-                <div class="process-item">
+                <div class="process-item card-shadow h170">
                     <h3>Generico</h3>
                     <div class="process-span">
                         <span>13</span>
